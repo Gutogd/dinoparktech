@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dino Park Tech - Um parque inovador dedicado à era dos dinossauros com alta tecnologia e segurança.">
+    <link rel="stylesheet" href="style.css">
+    <title>Dino Park Tech - Explore o Mundo dos Dinossauros</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #228B22;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #006400;
+            padding: 15px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #228B22;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .dinossauros img {
+            width: 100%;
+            height: auto;
+        }
+        .mapa img {
+            width: 100%;
+            height: auto;
+        }
+        .card {
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin: 20px;
+            padding: 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+        }
+        @media (max-width: 768px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header><div class="img_logo">
+    <img src="logo.png" alt="" width="150px">
+</div>
+    
+    <h1>Dino Park Tech</h1>
+    <p>O Parque de Dinossauros Mais Inovador e Seguro do Mundo</p>
+</header>
+
+<nav>
+    <a href="#sobre">Sobre o Parque</a>
+    <a href="#dinossauros">Dinossauros</a>
+    <a href="#mapa">Mapa do Parque</a>
+    <a href="#seguranca">Segurança</a>
+    <a href="#tecnologia">Tecnologia</a>
+    <a href="#contato">Contato</a>
+</nav>
+
+<section id="sobre">
+    <h2>Sobre o Parque</h2>
+    <div class="card">
+        <p>Bem-vindo ao Dino Park Tech, um parque temático dedicado ao fascinante mundo dos dinossauros. Aqui, você vai explorar dinossauros realistas extintos há milhões de anos, combinadas com a mais alta tecnologia para proporcionar uma experiência inesquecível.</p>
+        <p>Nosso parque foi desenvolvido com o objetivo de educar e entreter pessoas de todas as idades, sempre com o mais alto nível de segurança e inovação.</p>
+    </div>
+
+</section>
+
+<section id="dinossauros">
+    <h2>Dinossauros</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Tiranossauro Rex</h3>
+            <p>O rei dos dinossauros! Com mais de 10 metros de comprimento, o Tiranossauro Rex é uma das principais atrações do Dino Park Tech.
+                Viveu no final do período Cretáceo, há aproximadamente 68 a 66 milhões de anos. Um dos maiores predadores terrestres, alcançando até 12 metros de comprimento e pesando até 9 toneladas. Possuía mandíbulas poderosas com dentes serrilhados, ideais para triturar ossos.
+            </p>
+            <img src="rex.png" alt="Tiranossauro Rex" width="450px">
+        </div>
+        <div class="card">
+            <h3>Tricerátops</h3>
+            <p>Este herbívoro de três chifres é um dos dinossauros mais reconhecíveis. Viveu no final do período Cretáceo, cerca de 68 a 66 milhões de anos atrás.
+                Um dos dinossauros herbívoros mais conhecidos, o Tricerátops tinha três chifres na cabeça e um grande colar ósseo. Podia medir até 9 metros de comprimento e pesar cerca de 12 toneladas.</p>
+            <img src="Triceratops_BW.jpg" alt="Tricerátops" width="450px">
+        </div>
+        <div class="card">
+            <h3>Velociraptor</h3>
+            <p>Famoso por sua velocidade e inteligência, o Velociraptor é uma das criaturas mais fascinantes do parque, se destacava por sua inteligência avançada e viveu durante o final do período Cretáceo, há cerca de 75 a 71 milhões de anos.
+             Um pequeno carnívoro que media cerca de 2 metros de comprimento e pesava cerca de 15 kg. Possuía garras afiadas e uma cauda longa e rígida que ajudava na manobrabilidade.</p>
+            <img src="velo.png" alt="Velociraptor" width="450px">
+        </div>
+    </div>
+</section>
+
+<section id="mapa">
+    <h2>Mapa do Parque</h2>
+    <div class="card">
+        <p>Este mapa tem icones de ajuda para melhor entendimento dos lugares presentes dentro de nosso parque</p>
+        <img src="Area de shopping.png" alt="Mapa do Dino Park Tech">
+    </div>
+</section>
+
+<section id="seguranca">
+    <h2>Segurança</h2>
+    <div class="card">
+        <p>No Dino Park Tech, a segurança dos nossos visitantes é prioridade. Contamos com tecnologia de ponta para garantir que todos possam desfrutar do parque com tranquilidade:</p>
+        <ul>
+            <li>Sistemas de contenção avançados para dinossauros</li>
+            <li>Monitoramento 24/7 por câmeras de segurança e drones. 📷</li>
+            <li>Equipe de segurança treinada e pronta para qualquer eventualidade. 👮🏿‍♂️</li>
+            <li>Rota de evacuação e primeiros socorros estrategicamente posicionados em todo o parque. 🛣</li>
+        </ul>
+    </div>
+</section>
+
+<section id="atividades">
+    <h2>Atividades e Atrações</h2>
+    <div class="card">
+        <p>Explore nossas atividades emocionantes:</p>
+        <ul>
+            <li>Tour guiado pelos habitats dos dinossauros🚶🏿‍♂️‍➡️</li>
+            <li>Experiências de alimentação de dinossauros (simuladas)</li>
+            <li>Laboratório de fósseis para crianças🧬</li>
+            <li>Caminhadas ecológicas🌴</li>
+        </ul>
+    </div>
+    </ul>
+  </section>
+
+  <!-- Seção Parque de Diversões -->
+  <section id="diversao">
+    <h2>Parque de Diversões</h2>
+    <div class="card">
+        <p>Conheca nosso parque de diversões</p>
+        <ul>
+            <li>Montanha russa temática. 🎢</li>
+            <li>Roda gigante. 🎡</li>
+            <li>carrinho bate-bate. 🏎</li>
+            <li>carrosel tematico. 🎠</li>
+            <li>e muito mais venha nos visitar!</li>
+        </ul>
+    </div>
+  </section>
+
+<section id="tecnologia">
+    <h2>Tecnologia</h2>
+    <div class="card">
+        <p>Dino Park Tech não é apenas sobre dinossauros; é também um dos parques mais tecnologicamente avançados do mundo. Aqui estão algumas das inovações que fazem nosso parque ser único:</p>
+        <ul>
+            <li>Simulações 3D em alta definição de eventos pré-históricos, proporcionando uma experiência de aprendizado interativa.</li>
+            <li>Sistemas de controle ambiental avançados para garantir a preservação das paisagens temáticas do parque.</li>
+        </ul>
+    </div>
+</section>
+
+<section id="contato">
+    <h2>Contato</h2>
+    <div class="card">
+        <p>Para mais informações, dúvidas ou sugestões, entre em contato conosco:</p>
+        <p>Email: Dinoparktech@gmail.com</p>
+        <p>Localização : cafundó de judas, rua: 131A </p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Dino Park Tech. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
